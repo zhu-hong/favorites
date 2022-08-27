@@ -1,9 +1,13 @@
 <script setup>
+import ThemeToggler from './components/ThemeToggler.vue';
 </script>
 
 <template>
-  <h1>我的收藏</h1>
+  <div class="w-screen h-screen bg-$bg flex justify-center items-center">
+    <h1 class="text-8xl prose">一二三123</h1>
+    <ThemeToggler></ThemeToggler>
+  </div>
 </template>
 
-<style>
+<style lang="postcss">
 </style>
