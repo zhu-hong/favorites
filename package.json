@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@unocss/preset-wind": "0.45.13",
     "@unocss/reset": "0.45.13",
     "@vueuse/core": "9.1.1",
     "pinia": "2.0.21",

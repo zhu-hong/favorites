@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import unocss from 'unocss/vite'
-import { presetWind } from 'unocss'
+import presetWind from '@unocss/preset-wind'
 import nesting from 'postcss-nesting'
 
 export default defineConfig({

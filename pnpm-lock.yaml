@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@unocss/preset-wind': 0.45.13
   '@unocss/reset': 0.45.13
   '@vitejs/plugin-vue': 3.0.3
   '@vueuse/core': 9.1.1
@@ -12,6 +13,7 @@ specifiers:
   vue: 3.2.37
 
 dependencies:
+  '@unocss/preset-wind': 0.45.13
   '@unocss/reset': 0.45.13
   '@vueuse/core': 9.1.1_vue@3.2.37
   pinia: 2.0.21_vue@3.2.37

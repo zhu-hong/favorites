@@ -1,10 +1,14 @@
 html {
   --bg: #DDDDDD;
   --fg: #0F0E0E;
+  --sb: #909a93;
+  --sbh: #5f6260;
 }
 html.dark {
   --bg: #0F0E0E;
   --fg: #DDDDDD;
+  --sb: #2C3333;
+  --sbh: #3F4545;
 }
 
 .prose {
@@ -14,14 +18,13 @@ html.dark {
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
-  background-color: black;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: var(--sb);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(27, 27, 27, .5);
+  background-color: var(--sbh);
 }
 ::-webkit-scrollbar-corner,
 ::-webkit-scrollbar-track {
