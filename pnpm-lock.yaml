@@ -5,6 +5,7 @@ specifiers:
   '@unocss/reset': 0.45.13
   '@vitejs/plugin-vue': 3.0.3
   '@vueuse/core': 9.1.1
+  '@zhu-hong/code-block': 2.0.0
   pinia: 2.0.21
   postcss: 8.4.16
   postcss-nesting: 10.1.10
@@ -16,6 +17,7 @@ dependencies:
   '@unocss/preset-wind': 0.45.13
   '@unocss/reset': 0.45.13
   '@vueuse/core': 9.1.1_vue@3.2.37
+  '@zhu-hong/code-block': 2.0.0_vue@3.2.37
   pinia: 2.0.21_vue@3.2.37
   postcss: 8.4.16
   postcss-nesting: 10.1.10_postcss@8.4.16
@@ -434,6 +436,20 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+    dev: false
+
+  /@zhu-hong/code-block/2.0.0_vue@3.2.37:
+    resolution: {integrity: sha512-eqf22IFGW1/H0a9ORrieOGva4RAPH+IGRruWb/iP37aU49fp4Qvpp4kxfiwcqUZbLRA7W6BLTStplxAMhNBYSQ==}
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0
+      vue: ^2.0.0 || >=3.0.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      prismjs: 1.29.0
+      vue: 3.2.37
+      vue-demi: 0.13.11_vue@3.2.37
     dev: false
 
   /anymatch/3.1.2:
@@ -1041,6 +1057,11 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /prismjs/1.29.0:
+    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
+    engines: {node: '>=6'}
+    dev: false
 
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}

@@ -12,6 +12,7 @@
     "@unocss/preset-wind": "0.45.13",
     "@unocss/reset": "0.45.13",
     "@vueuse/core": "9.1.1",
+    "@zhu-hong/code-block": "2.0.0",
     "pinia": "2.0.21",
     "postcss": "8.4.16",
     "postcss-nesting": "10.1.10",
